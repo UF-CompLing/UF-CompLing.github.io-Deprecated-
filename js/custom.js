@@ -94,14 +94,14 @@ $(function(){
 
 
   // HOME BACKGROUND SLIDESHOW
-  $(function(){
+/*  $(function(){
     jQuery(document).ready(function() {
     $('#home').backstretch([
        "images/BlackMarble.jpg", 
        "images/BlackMarble.jpg",
         ],  {duration: 2000, fade: 750});
     });
-  })
+  })*/
 
 });
 
