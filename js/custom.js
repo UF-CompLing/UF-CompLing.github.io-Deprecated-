@@ -88,9 +88,9 @@ $(function(){
 
 
   // NIVO LIGHTBOX
-  $('.iso-box-section a').nivoLightbox({
+  /*$('.iso-box-section a').nivoLightbox({
         effect: 'fadeScale',
-    });
+    });*/
 
 
   // HOME BACKGROUND SLIDESHOW

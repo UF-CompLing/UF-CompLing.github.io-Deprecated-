@@ -13,9 +13,11 @@ Template 2075 Digital Team
 
 http://www.tooplate.com/view/2075-digital-team
 
--->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
+--
+>
+        <!-- Using a CDN for bootstrap so we can take advantage of cached copies from other sites -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/et-line-font.css">
 	<link rel="stylesheet" href="css/nivo-lightbox.css">
@@ -91,17 +93,17 @@ http://www.tooplate.com/view/2075-digital-team
 <section id="about">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 col-sm-12 text-center">
+			<div class="col-sm-12 text-center">
 				<div class="section-title">
 					<strong>01</strong>
 					<h1 class="heading bold">ABOUT US</h1>
 					<hr>
 				</div>
 			</div>
-			<div class="col-md-6 col-sm-12">
+			<div class="col-lg-6 col-md-5 col-sm-12">
 				<img src="images/IHMC.jpg" class="img-responsive" alt="about img">
 			</div>
-			<div class="col-md-6 col-sm-12">
+			<div class="col-lg-6 col-md-7 col-sm-12">
 				<h3 class="bold">OUR STUDENT ORGANIZATION</h3>
 				<h1 class="heading bold">The Computational Linguistics Club @ UF</h1>
 				<!-- Nav tabs -->
@@ -160,12 +162,23 @@ http://www.tooplate.com/view/2075-digital-team
 					<strong>02</strong>
 					<h1 class="heading bold">RESOURCES</h1>
 					<hr>
-					<p>This is the section where we will post all the resources we use during meetings</p>
+					<p>Powerpoints and other resources we use during meetings</p>
 
 				</div>
 			</div>
-			<h4>Jan.24 First Meeting</h4>
-			<li><a href="https://docs.google.com/presentation/d/1KHxN9Fu2plKqsiptD-KI3wtF7qKe61ZDmH3i-1B8dLI/edit?usp=sharing" class="fa fa-chevron-circle-right wow fadeIn"> Power point</a></li>
+                        <div class="col-sm-12">
+                            <h4>Jan. 21 First Meeting</h4>
+                            <li><a href="https://docs.google.com/presentation/d/1KHxN9Fu2plKqsiptD-KI3wtF7qKe61ZDmH3i-1B8dLI/edit?usp=sharing" class="fa fa-chevron-circle-right wow fadeIn"> Power point</a></li>
+                            <br>
+                            <h4>Jan. 28 Jurfasky's NLP Course</h4>
+                            <li><a href="https://docs.google.com/presentation/d/1TL4JCgcU86VW6py8n0CQ6cd51Dpk6LxsAGDJTGYv_y4/" class="fa fa-chevron-circle-right wow fadeIn"> Power point</a></li>
+                            <br>
+                            <h4>Feb. 4 Tokenization</h4>
+                            <li><a href="https://docs.google.com/presentation/d/1TL4JCgcU86VW6py8n0CQ6cd51Dpk6LxsAGDJTGYv_y4/" class="fa fa-chevron-circle-right wow fadeIn"> Power point</a></li>
+                            <br>
+                            <h4>Feb. 11 Sentence Segmentation</h4>
+                            <li><a href="https://docs.google.com/presentation/d/1vK_5Aqu0DbhCI-gIXypqX8izDRuh7fF3zVTXMQmrIQM" class="fa fa-chevron-circle-right wow fadeIn"> Power point</a></li>
+                        </div>
 		</div>
 </section>
 
@@ -175,10 +188,6 @@ http://www.tooplate.com/view/2075-digital-team
 		<div class="row">
 			<div class="col-md-12 col-sm-12 text-center">
 				<div class="section-title">
-					</br>
-					</br>
-					</br>
-					</br>
 					<strong>03</strong>
 					<h1 class="heading bold">OUR PROJECTS</h1>
 					<hr>
@@ -197,12 +206,12 @@ http://www.tooplate.com/view/2075-digital-team
                		<div class="iso-box-section wow fadeIn" data-wow-delay="0.9s">
                			<div class="iso-box-wrapper col4-iso-box">
 
-               				 <div class="iso-box aslglove col-lg-4 col-md-4 col-sm-6">
+               				 <div class="iso-box project aslglove col-lg-4 col-md-4 col-sm-6">
                				 	<img src="images/aslglove.png" class="img-responsive center-block" alt=“portfolio img”>
 						<div class="team-des text-center">
 							<h4>ASL Glove</h4>
 							<hr>
-							<p> This glove will use machine learning to translate the American Sign Language Alphabet from the user’s hand to a computer application</p>
+							<p> Building a glove that uses machine learning to translate the American Sign Language Alphabet from the user’s hand to a computer application</p>
 							<p> Image Credit:  http://www.clker.com/clipart-map-symbols-sign-language-interpretation-black.html </p>
 							<ul class="social-icon">																						<li><a href="#" class="fa fa-github wow fadeIn" data-wow-delay=“0.3s"></a></li>
 							</ul>
@@ -210,12 +219,12 @@ http://www.tooplate.com/view/2075-digital-team
 					</div>
 					
 
-					<div class="iso-box twitter col-lg-4 col-md-4 col-sm-6">
+					<div class="iso-box project twitter col-lg-4 col-md-4 col-sm-6">
                				 	<img src="images/twitterbot.png" class="img-responsive center-block" alt=“portfolio img”>
 						<div class="team-des text-center">
 							<h4>Twitter Bot</h4>
 							<hr>
-							<p> Building an automated twitter bot that utilizes Natural Language Processing</p>
+							<p> Building an automated twitter bot that utilizes Natural Language Processing to generate tweets throughout the day.</p>
 							<ul class="social-icon">
 								<li><a href="http://bit.ly/1o4FFtI" class="fa fa-file-word-o wow fadeIn" data-wow-delay=“0.3s"></a></li>
 								<li><a href="https://github.com/UF-CompLing/UF-ChompLing-Twitter" class="fa fa-github wow fadeIn" data-wow-delay=“0.3s"></a></li>
@@ -223,13 +232,13 @@ http://www.tooplate.com/view/2075-digital-team
 						</div>
 					</div>
 
-					<div class="iso-box wordcloud col-lg-4 col-md-4 col-sm-6">
+					<div class="iso-box project wordcloud col-lg-4 col-md-4 col-sm-6">
                				 	<img src="images/wordcloud.png" class="img-responsive center-block" alt=“portfolio img”>
 						<div class="team-des text-center">
 							<h4>WordClouds</h4>
 							<hr>
 							<p>Using Natural Language Processing to create word clouds.  This project may have added complexity such as shape and color of the cloud.</p>
-							<p>Image Credit: https://gistikcom.files.wordpress.com/2014/02/mabi87.png</p>
+                                                        <p>Image Credit: https://gistikcom.files.wordpress.com/<br>2014/02/mabi87.png</p>
 							<ul class="social-icon">
 								<li><a href="http://bit.ly/1UIrPYt" class="fa fa-file-word-o wow fadeIn" data-wow-delay=“0.3s"></a></li>
 								<li><a href="https://github.com/UF-CompLing" class="fa fa-github wow fadeIn" data-wow-delay=“0.3s"></a></li>
@@ -237,26 +246,26 @@ http://www.tooplate.com/view/2075-digital-team
 						</div>
 					</div>
 
-					<div class="iso-box sentiment col-lg-4 col-md-4 col-sm-6">
+					<div class="iso-box project sentiment col-lg-4 col-md-4 col-sm-6">
                				 	<img src="images/sentiment.png" class="img-responsive center-block" alt=“portfolio img”>
 						<div class="team-des text-center">
 							<h4>Basic Sentiment Analysis</h4>
 							<hr>
-							<p> Coding a basic sentiment analysis to classify specific words or posts as happy or sad.</p>
+							<p> Coding a basic sentiment analysis to classify specific articles or posts as happy or sad.</p>
 							<p> Image Credit: http://www.clker.com/cliparts/R/5/G/v/Q/J/theatre-masks-md.png </p>
 							<ul class="social-icon">
 								<li><a href="http://bit.ly/1X24AtI" class="fa fa-file-word-o wow fadeIn" data-wow-delay=“0.3s"></a></li>
-								<li><a href="https://github.com/UF-CompLing/Sentiment" class="fa fa-github wow fadeIn" data-wow-delay=“0.3s"></a></li>
+								<li><a href="https://github.com/UF-CompLing/Sentiment" target="_blank" class="fa fa-github"></a></li>
 							</ul>
 						</div>
 					</div>
 
-					<div class="iso-box random col-lg-4 col-md-4 col-sm-6">
+					<div class="iso-box project random col-lg-4 col-md-4 col-sm-6">
                				 	<img src="images/random.png" class="img-responsive center-block" alt=“portfolio img”>
 						<div class="team-des text-center">
 							<h4>Random Sentence Generator</h4>
 							<hr>
-							<p> Create randomly generated sentences that are based on a source text that can be called within a program.</p>
+							<p> Generating random sentences that are based on a source text using a Markov Chain model.</p>
 							<p> Image Credit:http://bsccongress.com/im2/cartoon-speech-bubble-clip-art.png</p>
 							<ul class="social-icon">
 								<li><a href="http://bit.ly/1X24xy7" class="fa fa-file-word-o wow fadeIn" data-wow-delay=“0.3s"></a></li>
@@ -398,12 +407,6 @@ http://www.tooplate.com/view/2075-digital-team
 		<div class="row">
 			<div class="col-md-12 col-sm-12 text-center">
 				<div class="section-title">
-					</br>
-					</br>
-					</br>
-					</br>
-					</br>
-					</br>
 					<strong>05</strong>
 					<h1 class="heading bold">OUR SPONSORS</h1>
 					<hr>

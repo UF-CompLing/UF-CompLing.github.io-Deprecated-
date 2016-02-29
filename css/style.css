@@ -6,6 +6,24 @@ http://www.tooplate.com/view/2075-digital-team
 
 */
 
+/* ============
+UI fixes
+*/
+
+div.iso-section ul {
+  padding-left: 0px;
+}
+
+.project > img {
+  max-height: 250px;
+}
+
+ul.nav.nav-tabs > li {
+  height: 46px;
+}
+
+/* Regular stuff */
+
 body {
     background: #ffffff;
     font-family: 'Roboto', sans-serif;
@@ -73,10 +91,10 @@ hr {
   font-size: 32px !important;
 }
 
-#work,#about, #team, 
-#portfolio, #pricing, #contact {
+#about, #resources, 
+#projects, #team, #sponsors, #contact {
    padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 100px;/
 }
 
 
@@ -420,6 +438,10 @@ team section
 #team .team-wrapper {
   overflow: hidden;
   position: relative;
+  height: 275px;
+}
+#team .team-wrapper>img {
+  width:185px;
 }
 #team .team-des {
   background-color: rgba(00,00,00,0.6);
